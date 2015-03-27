@@ -27,10 +27,8 @@ public class SpringConfigInitializer implements WebApplicationInitializer{
 		// registering and defining dispatcher servlet
 		ServletRegistration.Dynamic dispatcher = servletContext.addServlet("SpringDispatcher", new DispatcherServlet(appContext));
 		dispatcher.setLoadOnStartup(1);
-		dispatcher.addMapping("/");
-		
-		// trying to configure tiles - pending		
-		
+		dispatcher.addMapping("/");	
+						
 	}
 
 }

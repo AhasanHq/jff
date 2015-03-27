@@ -4,10 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Just For Fun</title>
+<title>JFF Index Page</title>
 </head>
 <body>
-	Hello World! <hr>
-	Inside webapp index.html
+	Hello World from Index controller!
 </body>
 </html>
